@@ -113,4 +113,19 @@ myConcertTickets %=4;
 // How would you calculate the result
 
 let myMathProblem = 2;
-myMathProblem **=4;
+myMathProblem **= 4;
+
+//! Comparison Operators
+// Used to compare values
+// Equal to (==)
+// The equal to '==' operator checks if the values of 
+// two operands are equal or not regardless of their
+// type
+let myNumber = 21;// Number
+let mySecondNumber = '21';// String
+let myResult = myNumber == mySecondNumber;
+console.log(myResult);
+// So in double equal to does not consider data type
+// that's why the result is true while triple equal to
+// considers data type it checks if my string is equal
+// to a number and that's where you get a false data type
