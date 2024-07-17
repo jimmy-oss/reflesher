@@ -108,3 +108,9 @@ myConcertTickets %=4;
 
 
 // Exponential Operator (**=)
+// In a math problem,you are given a base number of 2
+// and asked to raise this number to the power of 4
+// How would you calculate the result
+
+let myMathProblem = 2;
+myMathProblem **=4;
