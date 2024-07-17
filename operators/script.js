@@ -35,7 +35,7 @@ currentWebsiteViews++
 
 // Decrement operator (--) decreases a number by 1
 let currentSalesSold = 1000;
-currentSalesSold-=10;
+currentSalesSold--;
 // Its the same as currentSalesSold -=1;
 // You could decrease the currentSalesSold -=10;
 // And the result is 990;
