@@ -88,3 +88,23 @@ console.log(myPieces);
 // let myTotalCookies = 12;
 // myTotalCookies *=3;
 // total should be 36;
+
+// Assignment Operator (/=)
+// You have a 200 page book that you want to study
+// over the next 5 days,planning to read the same 
+// number of pages each day.How would you calculate
+// how many pages you need to read each day
+
+let myPageBook = 200;
+myPageBook /= 5;
+
+// Remainder Assignment Operator (%=)
+// You have 25 concert tickets that you want to
+// distribute equally among 4 friends.How would
+// you calculate how many tickets each person
+
+let myConcertTickets = 25;
+myConcertTickets %=4;
+
+
+// Exponential Operator (**=)
