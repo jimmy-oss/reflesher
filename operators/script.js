@@ -117,15 +117,33 @@ myMathProblem **= 4;
 
 //! Comparison Operators
 // Used to compare values
-// Equal to (==)
+// Equal to (== 0r ===)
 // The equal to '==' operator checks if the values of 
 // two operands are equal or not regardless of their
 // type
 let myNumber = 21;// Number
 let mySecondNumber = '21';// String
-let myResult = myNumber == mySecondNumber;
+let myResult = myNumber === mySecondNumber;
 console.log(myResult);
 // So in double equal to does not consider data type
 // that's why the result is true while triple equal to
 // considers data type it checks if my string is equal
 // to a number and that's where you get a false data type
+
+// not equal to !=
+// The not equal != checks if the values of two operands
+// are not equal regardless their operands
+let apples = 5;
+let oranges = 7;
+let result = apples != oranges;
+
+// Not equal value or not equal type (!==)
+// The not equal value and not equal type operator
+// checks if the values and/or types of the operands
+// are not identical
+
+let bananas = 5;
+let pears = 8;
+let myFruit = bananas !== pears
+console.log(myFruit);
+
