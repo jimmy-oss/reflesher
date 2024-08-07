@@ -189,4 +189,5 @@ let lastName = 'jayB'
 let message = greeting + firstName + " " + lastName;
 
 // +=
-let sentense = 'I love'
+let sentense = 'I love';
+sentense += " Javascript"
