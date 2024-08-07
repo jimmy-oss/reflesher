@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript</title>
+  <!--
+  Defer method that is used in js is used when your html file
+   is fully loaded or executed then your js file will be
+  allowed to run
+  So in defer it will block it will wait until your html file is
+  fully loaded and then it will execute your js file
+  <script src="./index.js" defer></script>
+  -->
+  <!--
+  Async method that is used in js this means your file will be asycnolously
+  while the html file is passing while being executed meaning even the html 
+  file is not even complete
+  so in async method it will load even before your html file is not fully loaded
+  and it will execute your js file
+  <script src="./index.js" async></script>
+  -->
+  <script src="/first-js-code/script.js" async></script>
+</head>
+<body>
+  <h1>Javascript</h1>
+  <!-- 
+  Javascript in html Event Handler Attributes
+  -->
+  <button onclick="console.log('This is from the button')">Click Me</button>
+  <!-- 
+  Javascript in the URL
+  -->
+  <a href="javascript:console.log('Registered Successfully')">Register</a>
+</body>
+</html>
