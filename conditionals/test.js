@@ -6,8 +6,8 @@
 // 80%. Print a message you qualified for full scholarship
 // otherwise print you got a partial scholarship
 
-let fullScholarship = 80;
-let partialScholarship = 40;
+let fullScholarship = 0.8 * 100;
+let partialScholarship = 0.4 * 100;
 
 let myResult = 80;
 
@@ -17,6 +17,6 @@ if (myResult >= fullScholarship) {
 } else if (myResult >= partialScholarship) {
   console.log("I have qualified for a partial scholarship")
 } else {
-  console.log("You are disqualified")
+  console.log("You don't qualify for any scholarship")
 }
  
