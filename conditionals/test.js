@@ -19,3 +19,4 @@ if (myResult >= fullScholarship) {
 } else {
   console.log("You are disqualified")
 }
+ 
