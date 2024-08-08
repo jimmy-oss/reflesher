@@ -21,3 +21,20 @@ if (minAge >= 18) {
 } else {
   console.log("Your age does not meet the current requirements your disqualified ")
 }
+
+// Truthy & Falsy Value
+
+// Falsy
+// false
+// 0
+// ""
+// null
+// undefined
+
+let age = 0;
+if (age) {
+  console.log("Yes it is True")
+} else {
+  console.log("It is false")
+}
+ 

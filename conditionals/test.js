@@ -7,7 +7,7 @@
 // otherwise print you got a partial scholarship
 
 let fullScholarship = 0.8 * 100;
-let partialScholarship = 0.4 * 100;
+let partialScholarship = 0.5 * 100;
 
 let myResult = 80;
 
