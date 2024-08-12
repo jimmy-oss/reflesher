@@ -21,3 +21,8 @@ while(i<10){
   console.log(i)
   ++i
 }
+// The while loop is similar to the for loop,
+// but instead of using an initializer
+// and an incrementer, it only has a condition.
+// The code block is executed repeatedly until
+// the condition evaluates to false.;
