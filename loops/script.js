@@ -10,7 +10,14 @@
 // it's executed once, as the loop begins.;
 // When the **condition** returns true, the loop executes the statement.
 // The **final-expression** is executed every time the statement (s) runs.
-let i;
-for (i=0; i<=5; ++i){
-  console.log(i);
+//let i;
+// for (i=0; i<=5; ++i){
+//  console.log(i);
+// }
+
+// While loop
+let i = 0;
+while(i<10){
+  console.log(i)
+  ++i
 }
