@@ -10,4 +10,6 @@ function sayHello() {
   
 }
 // Calling a Function || Invocation
-sayHello()
+sayHello();
+
+// Function Expression
