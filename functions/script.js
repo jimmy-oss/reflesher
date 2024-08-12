@@ -10,6 +10,11 @@ function sayHello() {
   
 }
 // Calling a Function || Invocation
-sayHello();
+// sayHello();
 
 // Function Expression
+let greeting = function () {
+  console.log('Good morning')
+}
+// Calling a Function || Invocation
+greeting();
